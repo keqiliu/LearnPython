@@ -1,10 +1,15 @@
-import this
+# this is a poem.
+# import this
 import numpy as np
 
 xx = np.array([1, 3])
 
 print(xx)
 
-x = 1 + 1
-print(x)
+str(xx)
 
+print("are \nyou \"\n'ok'?")
+
+"""
+test
+"""
