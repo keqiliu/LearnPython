@@ -18,7 +18,6 @@ def main():
         # print(i)
         print(str(i) + ' ' + str(random.random()))
 
-
     return
 
 
