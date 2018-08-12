@@ -1,0 +1,4 @@
+now I'm replacing chars at the beginning.
+nother 
+ few 
+ lines		now I'm adding new lines in the end
