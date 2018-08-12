@@ -5,6 +5,7 @@ y = x ^ (x/3)
 
 import numpy as np
 import scipy.optimize as opt
+import timeit
 
 
 def func_d(func, x, bump=0.01):
@@ -46,15 +47,26 @@ def this_func(x):
     return x ** (x / 3)
 
 
-x1 = bisection_solve(this_func, 2, 1, 3)
-print("bisection: x1={0:.4f}".format(x1))
-print(x1, '\n')
+solver_name = ['bisec', 'scipy bisec', 'newton', 'scipy newton']
+t = {}
+for i in range(4):
+    t_start = timeit.default_timer()
+    if i == 0:
+        x1 = bisection_solve(this_func, 2, 1, 3)
+        print("bisection: x1={0:.4f}".format(x1))
+        print(x1, '\n')
+    elif i == 1:
+        x2 = opt.bisect(lambda x: this_func(x) - 2, 1, 3)
+        print("scipy bisec: x2={0}\n".format(x2))
+    elif i == 2:
+        x3 = newton_solve(this_func, 2, 1)
+        print("Newton: x3={0}\n".format(x3))
+    else:
+        x4 = opt.newton(lambda x: this_func(x)-2, 1)
+        print("scipy newton: x4={0}\n".format(x4))
+    t_end = timeit.default_timer()
+    t[solver_name[i]] = (t_end-t_start)
 
-x2 = opt.bisect(lambda x: this_func(x)-2, 1, 3)
-print("scipy bisec: x2={0}\n".format(x2))
-
-x3 = newton_solve(this_func, 2, 1)
-print("Newton: x3={0}\n".format(x3))
-
-x4 = opt.newton(lambda x: this_func(x)-2, 1)
-print("scipy newton: x4={0}\n".format(x4))
+# sorted, does NOT change original value in t
+for k, v in sorted(t.items(), key=lambda x: x[1]):
+    print('{0}: t = {1}'.format(k, v))
