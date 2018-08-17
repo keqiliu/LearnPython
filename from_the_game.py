@@ -16,3 +16,9 @@ print('WOW!! b also changes', b)
 print('But c does NOT!', c)
 print('d does not change!', d)
 
+
+# arrays
+# https://stackoverflow.com/questions/240178/list-of-lists-changes-reflected-across-sublists-unexpectedly
+arr = [[]] * 3  # refer to the same address 3 times!!!
+arr[0].append(7)
+print(arr)  # you will see three 7's ~~~ wow!!!

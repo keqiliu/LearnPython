@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22185934-98f5-4b48-9def-37c5ba067a8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_save.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aya.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup_files.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heart.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/is_palindrome.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDay1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDay1_Newton.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDay1_Sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDay2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDay3_MonteCarlo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDay3_pandas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_random.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reach_to_21_game/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/reach_to_21_game/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_copy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_permutation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/from_the_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/from_the_game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +19,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$Backup_files.coverage" NAME="Backup files Coverage Results" MODIFIED="1533480333951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$FirstTest.coverage" NAME="FirstTest Coverage Results" MODIFIED="1533478779155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$learnDay2.coverage" NAME="learnDay2 Coverage Results" MODIFIED="1534089341313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnPython$from_the_game.coverage" NAME="from_the_game Coverage Results" MODIFIED="1534476931890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -58,25 +39,26 @@
     <session id="589084894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2304" />
-          <entry key="py" value="23923" />
+          <entry key="Python Console" value="2379" />
+          <entry key="py" value="24090" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="26227" />
+          <entry key="Python" value="26469" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,13 +79,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/from_the_game.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,6 +122,7 @@
         <option value="$PROJECT_DIR$/learnDay1_Sort.py" />
         <option value="$PROJECT_DIR$/learnDay3_pandas.py" />
         <option value="$PROJECT_DIR$/reach_to_21_game/game.py" />
+        <option value="$PROJECT_DIR$/from_the_game.py" />
       </list>
     </option>
   </component>
@@ -156,8 +133,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="250" />
-    <option name="y" value="97" />
+    <option name="x" value="172" />
+    <option name="y" value="23" />
     <option name="width" value="1268" />
     <option name="height" value="733" />
   </component>
@@ -169,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,7 +158,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.learnDay1_Sort">
+  <component name="RunManager" selected="Python.from_the_game">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +206,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="from_the_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/from_the_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="learnDay1_Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,28 +242,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnDay1_Sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="learnDay2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnDay2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,19 +317,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.learnDay2" />
       <item itemvalue="Python.learnDay3" />
       <item itemvalue="Python.learnDay3_MonteCarlo" />
       <item itemvalue="Python.learnDay3_pandas" />
       <item itemvalue="Python.learnDay1_Sort" />
+      <item itemvalue="Python.from_the_game" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.from_the_game" />
         <item itemvalue="Python.learnDay1_Sort" />
         <item itemvalue="Python.learnDay3_pandas" />
         <item itemvalue="Python.learnDay3_MonteCarlo" />
         <item itemvalue="Python.learnDay3" />
-        <item itemvalue="Python.learnDay2" />
       </list>
     </recent_temporary>
   </component>
@@ -379,16 +356,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="250" y="97" width="1268" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="172" y="23" width="1268" height="733" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26019576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26427406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.62081784" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.36982247" weight="0.5328377" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.36982247" weight="0.53236246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985207" weight="0.32713756" />
@@ -396,7 +372,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49499285" weight="0.32589838" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.32611832" />
-      <window_info anchor="bottom" content_ui="combo" id="Python Console" order="11" sideWeight="0.6301775" visible="true" weight="0.49838188" />
+      <window_info active="true" anchor="bottom" content_ui="combo" id="Python Console" order="11" sideWeight="0.6301775" visible="true" weight="0.49838188" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49785408" weight="0.32589838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -503,34 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string_permutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/normal_random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/real_copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backup_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/string_permutation.py" />
+    <entry file="file://$PROJECT_DIR$/normal_random.py" />
+    <entry file="file://$PROJECT_DIR$/real_copy.py" />
+    <entry file="file://$PROJECT_DIR$/backup_files.py" />
     <entry file="file://$PROJECT_DIR$/learnDay123.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,31 +519,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daydayup.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup.txt" />
     <entry file="file://$PROJECT_DIR$/learnDay3_pandas.py" />
-    <entry file="file://$PROJECT_DIR$/is_palindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/is_palindrome.py" />
     <entry file="file://$PROJECT_DIR$/learnDay1_Newton.py" />
     <entry file="file://$PROJECT_DIR$/learnDay1_Sort.py" />
     <entry file="file://$PROJECT_DIR$/learnDay3_MonteCarlo.py" />
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -651,7 +585,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/from_the_game.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
