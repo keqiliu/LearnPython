@@ -3,7 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="22185934-98f5-4b48-9def-37c5ba067a8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDay1_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnDay1_Sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_save.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aya.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is_palindrome.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnDay1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnDay1_Newton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnDay1_Sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnDay2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnDay3_MonteCarlo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnDay3_pandas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/normal_random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reach_to_21_game/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/reach_to_21_game/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_permutation.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,44 +58,52 @@
     <session id="589084894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2190" />
-          <entry key="py" value="23855" />
+          <entry key="Python Console" value="2304" />
+          <entry key="py" value="23923" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="26045" />
+          <entry key="Python" value="26227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="md" value="1" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="37" />
+          <entry key="py" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="1" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="37" />
+          <entry key="Python" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/from_the_game.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,6 +111,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>column</find>
+      <find>array_save</find>
+      <find>array_sa</find>
+      <find>day</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -108,8 +143,9 @@
         <option value="$PROJECT_DIR$/learnDay2.py" />
         <option value="$PROJECT_DIR$/learnDay3.py" />
         <option value="$PROJECT_DIR$/learnDay3_MonteCarlo.py" />
-        <option value="$PROJECT_DIR$/learnDay3_pandas.py" />
         <option value="$PROJECT_DIR$/learnDay1_Sort.py" />
+        <option value="$PROJECT_DIR$/learnDay3_pandas.py" />
+        <option value="$PROJECT_DIR$/reach_to_21_game/game.py" />
       </list>
     </option>
   </component>
@@ -119,9 +155,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="250" />
+    <option name="y" value="97" />
+    <option name="width" value="1268" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -195,6 +233,9 @@
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -236,6 +277,9 @@
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -255,6 +299,9 @@
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -274,6 +321,9 @@
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -329,9 +379,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="250" y="97" width="1268" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25250357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26019576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,7 +396,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49499285" weight="0.32589838" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.32611832" />
-      <window_info active="true" anchor="bottom" content_ui="combo" id="Python Console" order="11" sideWeight="0.6301775" visible="true" weight="0.38166046" />
+      <window_info anchor="bottom" content_ui="combo" id="Python Console" order="11" sideWeight="0.6301775" visible="true" weight="0.49838188" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49785408" weight="0.32589838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -387,19 +438,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/learnDay2.py</url>
-          <line>161</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/learnDay2.py</url>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="func" language="Python" />
@@ -458,23 +496,6 @@
     <entry file="file://$PROJECT_DIR$/data structure.py" />
     <entry file="file://$PROJECT_DIR$/real copy.py" />
     <entry file="file://$PROJECT_DIR$/Backup files.py" />
-    <entry file="file://$PROJECT_DIR$/is_palindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -525,22 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDay1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="97" column="18" lean-forward="true" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/learnDay1.py" />
     <entry file="file://$PROJECT_DIR$/learnDay2-Newton.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pandas_datareader/fred.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -549,63 +558,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDay3.py">
+    <entry file="file://$PROJECT_DIR$/learnDay3.py" />
+    <entry file="file://$PROJECT_DIR$/learnDay2.py" />
+    <entry file="file://$PROJECT_DIR$/reach_to_21_game/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="-88">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDay2.py">
+    <entry file="file://$PROJECT_DIR$/daydayup.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnDay3_pandas.py" />
+    <entry file="file://$PROJECT_DIR$/is_palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnDay1_Newton.py" />
+    <entry file="file://$PROJECT_DIR$/learnDay1_Sort.py" />
+    <entry file="file://$PROJECT_DIR$/learnDay3_MonteCarlo.py" />
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_byte_of_python/backup_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <marker date="1534091845666" expanded="true" signature="2506:2511" ph="..." />
-            <marker date="1534091845666" expanded="true" signature="2687:2931" ph="..." />
-            <marker date="1534091845666" expanded="true" signature="3309:3342" ph="..." />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDay3_pandas.py">
+    <entry file="file://$PROJECT_DIR$/a_byte_of_python/data_structure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDay3_MonteCarlo.py">
+    <entry file="file://$PROJECT_DIR$/a_byte_of_python/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="27" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_in_3_days/learnDay2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="98" column="66" selection-start-line="98" selection-start-column="66" selection-end-line="98" selection-end-column="66" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDay1_Newton.py">
+    <entry file="file://$PROJECT_DIR$/learn_in_3_days/learnDay1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="69" selection-start-line="69" selection-end-line="72" />
-          <folding>
-            <element signature="e#34#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="78">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDay1_Sort.py">
+    <entry file="file://$PROJECT_DIR$/first_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="159" column="3" lean-forward="true" selection-start-line="159" selection-start-column="3" selection-end-line="159" selection-end-column="3" />
-          <folding>
-            <element signature="e#70#83#0" expanded="true" />
-            <marker date="1534137171155" expanded="true" signature="936:2283" ph="..." />
-            <marker date="1534137171155" expanded="true" signature="2527:2530" ph="..." />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/from_the_game.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

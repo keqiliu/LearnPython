@@ -1,5 +1,5 @@
 import pandas as pd
-pd.core.common.is_list_like = pd.api.types.is_list_like  # to fix pand_datareader is_list_like error
+pd.core.common.is_list_like = pd.api.types.is_list_like  # to fix panda_datareader is_list_like error
 import pandas_datareader.data as web
 import datetime
 import os.path
@@ -10,8 +10,9 @@ import scipy.stats as scs
 
 # it's all about pandas!
 # data frame
-df = pd.DataFrame([10, 20, 30, 40],
-                  columns=['Numbers'],
+
+df = pd.DataFrame(list(map(list, zip(*[[10, 20, 30, 40], [1, 2, 3, 4]]))),
+                  columns=['Numbers', 'another'],
                   index=['a', 'b', 'c', 'd'])
 print(df.index)
 print(df.columns)

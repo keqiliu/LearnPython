@@ -13,7 +13,7 @@ def get_add_number(current_num):
 
 if __name__ == '__main__':
     print('\n{game_name:-^40}'.format(game_name='let\'s play a game'))
-    print('start with 1 or 2, then adNd 1 or 2 onto it')
+    print('start with 1 or 2, then add 1 or 2 onto it')
     print('whoever reaches 21 wins!')
     print('\nAre you ready? :)\n')
     player_goes_first = str(input('Do you want to go first? Y/N?'))
