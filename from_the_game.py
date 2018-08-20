@@ -22,3 +22,8 @@ print('d does not change!', d)
 arr = [[]] * 3  # refer to the same address 3 times!!!
 arr[0].append(7)
 print(arr)  # you will see three 7's ~~~ wow!!!
+
+x = (0, 1, 2)
+(a, b, c) = x
+[a1, b1] = (a, b)
+
