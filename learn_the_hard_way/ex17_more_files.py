@@ -24,4 +24,4 @@ print("Alright, all done.")
 out_file.close()
 
 # try 1 line
-open("try_1_line_"+to_file, 'w').write(open(from_file).read())
+open(to_file[:to_file.rfind('.')] + "_try_1_line" + to_file[to_file.rfind('.'):], 'w').write(open(from_file).read())

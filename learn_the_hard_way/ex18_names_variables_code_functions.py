@@ -18,6 +18,7 @@ def print_one(arg1):
 def print_none():  # this is empty (), not like void way, just empty ()!!!
     print("I got nothin'.")
 
+
 print_two("Peppa", "pig")
 print_two_again("Xiaozhu", "keqi")
 print_one("First!")
