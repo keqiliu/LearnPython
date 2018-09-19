@@ -5,6 +5,7 @@ To-do list:
 3. Read about "super", pros & cons
 """
 
+
 # Animal is-a object
 class Animal(object):  # put (object) here! explicit is better than implicit!!
     pass

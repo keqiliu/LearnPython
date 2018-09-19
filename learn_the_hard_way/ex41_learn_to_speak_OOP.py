@@ -2,10 +2,9 @@
 
 """
 To-do list:
-1. str what is casefold
-2. str. isdigit() vs. isdecimal()
-3. str.isindentifier
-4. Run with real URL
+1. str what is casefold  --> more aggressive version of lower()
+2. str. isdigit() vs. isdecimal() --> Range: isnumeric > isdigit > isdecimal
+3. str.isindentifier --> whether that str is VALID variable name
 """
 
 # is-a: X is-a Y --> X inherits from Y
@@ -23,8 +22,23 @@ import sys
 "12".isdecimal()  # True
 "12.5".isdecimal()  # Must be all decimal!!
 "125".isdigit()  # Must be all digits!! Looks like isdigit() == isdecimal()??
-"classes".isidentifier()
-"class".isidentifier()
+
+
+# compare a few string check
+def spam(s):
+    for attr in 'isnumeric', 'isdecimal', 'isdigit':
+        print(s, attr, getattr(s, attr)())
+
+
+spam('½')
+spam('³')
+
+
+"aiyo.asdf".isidentifier()
+"aiyo_asdf".isidentifier()
+"123f".isidentifier()
+"a123".isidentifier()
+
 "\n".isspace()
 "\v".isspace()
 "\vv".isspace()

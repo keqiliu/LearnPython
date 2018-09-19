@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22185934-98f5-4b48-9def-37c5ba067a8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LearnPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearnPython.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_the_hard_way/ex41_learn_to_speak_OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_the_hard_way/ex41_learn_to_speak_OOP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_the_hard_way/ex42_is-a_has-a_objects_and_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_the_hard_way/ex42_is-a_has-a_objects_and_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_the_hard_way/ex43_basic_OO_analysis_and_design.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_the_hard_way/ex43_basic_OO_analysis_and_design.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +19,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$learnDay2_Newton.coverage" NAME="learnDay2-Newton Coverage Results" MODIFIED="1534049529776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$ex16_reading_and_writing_files.coverage" NAME="ex16_reading_and_writing_files Coverage Results" MODIFIED="1534819819950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_the_hard_way" />
     <SUITE FILE_PATH="coverage/LearnPython$ex13_parameters_unpacking_variables.coverage" NAME="ex13_parameters_unpacking_variables Coverage Results" MODIFIED="1534733048410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_the_hard_way" />
+    <SUITE FILE_PATH="coverage/LearnPython$ex45_you_make_a_game.coverage" NAME="ex45_you_make_a_game Coverage Results" MODIFIED="1537149246827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_the_hard_way" />
     <SUITE FILE_PATH="coverage/LearnPython$ex35_branches_and_functions.coverage" NAME="ex35_branches_and_functions Coverage Results" MODIFIED="1535062261476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_the_hard_way" />
     <SUITE FILE_PATH="coverage/LearnPython$FirstTest.coverage" NAME="FirstTest Coverage Results" MODIFIED="1533478779155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$learnDay2.coverage" NAME="learnDay2 Coverage Results" MODIFIED="1534089341313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -45,33 +50,34 @@
     <session id="589084894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="6" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="5519" />
-          <entry key="py" value="56070" />
+          <entry key="Python Console" value="5914" />
+          <entry key="py" value="60827" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="61589" />
+          <entry key="Python" value="66741" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="110" />
+          <entry key="py" value="125" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -80,11 +86,15 @@
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="110" />
+          <entry key="Python" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,12 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/learnDay3_MonteCarlo.py" />
-        <option value="$PROJECT_DIR$/learnDay1_Sort.py" />
-        <option value="$PROJECT_DIR$/learnDay3_pandas.py" />
-        <option value="$PROJECT_DIR$/reach_to_21_game/game.py" />
-        <option value="$PROJECT_DIR$/from_the_game.py" />
-        <option value="$PROJECT_DIR$/learn_the_hard_way/ex1_a_good_first_program.py" />
         <option value="$PROJECT_DIR$/learn_the_hard_way/ex2_comments_and_pound_char.py" />
         <option value="$PROJECT_DIR$/learn_the_hard_way/ex3_numbers_and_math.py" />
         <option value="$PROJECT_DIR$/learn_the_hard_way/ex4_variables_and_names.py" />
@@ -156,9 +160,15 @@
         <option value="$PROJECT_DIR$/learn_the_hard_way/ex39_Oh_lovely_dictionaries.py" />
         <option value="$PROJECT_DIR$/learn_the_hard_way/ex40_mystuff.py" />
         <option value="$PROJECT_DIR$/learn_the_hard_way/ex40_modules_classes_objects.py" />
+        <option value="$PROJECT_DIR$/learn_the_hard_way/ex43_basic_OO_analysis_and_design.py" />
         <option value="$PROJECT_DIR$/learn_the_hard_way/ex41_learn_to_speak_OOP.py" />
         <option value="$PROJECT_DIR$/learn_the_hard_way/ex42_is-a_has-a_objects_and_classes.py" />
-        <option value="$PROJECT_DIR$/learn_the_hard_way/ex43_basic_OO_analysis_and_design.py" />
+        <option value="$PROJECT_DIR$/learn_the_hard_way/ex44_inheritance_vs_composition.py" />
+        <option value="$PROJECT_DIR$/learn_the_hard_way/ex45_you_make_a_game.py" />
+        <option value="$PROJECT_DIR$/learn_the_hard_way/ex47/setup.py" />
+        <option value="$PROJECT_DIR$/learn_the_hard_way/ex47/ex47/game.py" />
+        <option value="$PROJECT_DIR$/learn_the_hard_way/ex47/tests/ex47_tests.py" />
+        <option value="$PROJECT_DIR$/learn_the_hard_way/ex47_projects/ex47/game.py" />
       </list>
     </option>
   </component>
@@ -169,8 +179,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="345" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="921" />
     <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -181,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,10 +204,24 @@
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="learn_the_hard_way" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_the_hard_way" type="462c0819:PsiDirectoryNode" />
+              <item name="ex47_projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_the_hard_way" type="462c0819:PsiDirectoryNode" />
+              <item name="ex47_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="ex47" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex42_is-a_has-a_objects_and_classes">
+  <component name="RunManager" selected="Python.ex44_inheritance_vs_composition">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,72 +263,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex38_doing_things_to_lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn_the_hard_way" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_the_hard_way/ex38_doing_things_to_lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex39_Oh_lovely_dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn_the_hard_way" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_the_hard_way/ex39_Oh_lovely_dictionaries.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex40_modules_classes_objects" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn_the_hard_way" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_the_hard_way/ex40_modules_classes_objects.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,20 +315,80 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex43_basic_OO_analysis_and_design" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn_the_hard_way" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_the_hard_way/ex43_basic_OO_analysis_and_design.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex44_inheritance_vs_composition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn_the_hard_way" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_the_hard_way/ex44_inheritance_vs_composition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex45_you_make_a_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn_the_hard_way" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_the_hard_way/ex45_you_make_a_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.ex38_doing_things_to_lists" />
-      <item itemvalue="Python.ex39_Oh_lovely_dictionaries" />
-      <item itemvalue="Python.ex40_modules_classes_objects" />
       <item itemvalue="Python.ex41_learn_to_speak_OOP" />
       <item itemvalue="Python.ex42_is-a_has-a_objects_and_classes" />
+      <item itemvalue="Python.ex43_basic_OO_analysis_and_design" />
+      <item itemvalue="Python.ex44_inheritance_vs_composition" />
+      <item itemvalue="Python.ex45_you_make_a_game" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex42_is-a_has-a_objects_and_classes" />
+        <item itemvalue="Python.ex44_inheritance_vs_composition" />
+        <item itemvalue="Python.ex45_you_make_a_game" />
         <item itemvalue="Python.ex41_learn_to_speak_OOP" />
-        <item itemvalue="Python.ex40_modules_classes_objects" />
-        <item itemvalue="Python.ex39_Oh_lovely_dictionaries" />
-        <item itemvalue="Python.ex38_doing_things_to_lists" />
+        <item itemvalue="Python.ex43_basic_OO_analysis_and_design" />
+        <item itemvalue="Python.ex42_is-a_has-a_objects_and_classes" />
       </list>
     </recent_temporary>
   </component>
@@ -397,8 +415,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <frame x="345" y="23" width="921" height="808" extended-state="0" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.6837315" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.62081784" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.36982247" weight="0.5036075" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985207" weight="0.32694763" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49499285" weight="0.3256705" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.32611832" />
+      <window_info active="true" anchor="bottom" content_ui="combo" id="Python Console" order="11" sideWeight="0.6301775" visible="true" weight="0.48051947" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49785408" weight="0.32589838" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.93061227" weight="0.81876606" />
+      <window_info anchor="right" x="0" y="0" width="240" height="608" id="Documentation" order="4" sideWeight="0.06938776" side_tool="true" weight="0.65976334" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32885906" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.68526465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -422,7 +465,7 @@
       <window_info anchor="right" x="0" y="0" width="240" height="608" id="Documentation" order="4" sideWeight="0.06938776" side_tool="true" weight="0.65976334" />
       <window_info anchor="right" id="Database" order="5" weight="0.32885906" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -431,6 +474,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learn_the_hard_way/ex41_learn_to_speak_OOP.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="func" language="Python" />
@@ -476,62 +528,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn_in_3_days/learnDay1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="77" column="16" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/from_the_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex1_a_good_first_program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex2_comments_and_pound_char.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex3_numbers_and_math.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex5_more_variables_and_printing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex4_variables_and_names.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex6_strings_and_text.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -788,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex40_mystuff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex40_modules_classes_objects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -802,24 +791,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex41_learn_to_speak_OOP.py">
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex40_mystuff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex42_is-a_has-a_objects_and_classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex43_basic_OO_analysis_and_design.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="181">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex41_learn_to_speak_OOP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#206#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex42_is-a_has-a_objects_and_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex45_you_make_a_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex47/ex47/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex47/tests/ex47_tests.py" />
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex47/ex47/game.py" />
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex47/setup.py" />
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex44_inheritance_vs_composition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex47_projects/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_the_hard_way/ex47_projects/ex47/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
