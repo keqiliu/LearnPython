@@ -14,10 +14,15 @@ from scipy import integrate
 from scipy import stats
 from scipy.optimize import curve_fit
 from scipy import optimize
+import scipy.stats as scs
+from sklearn.linear_model import LinearRegression
+import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib
 import sympy as sy
 import pandas as pd
+import yfinance as yf
+import statsmodels.api as sm
 matplotlib.use('TkAgg')
 
 # -----------------------Day 1-----------------------------
@@ -102,6 +107,7 @@ file.close()
 # to avoid "forget to close the file"
 with open('newfile.txt', 'a') as f:
     f.write('\n open again!!')
+
 
 # -----------------------Day 2-----------------------------
 # time it in fractional seconds
@@ -319,3 +325,131 @@ print(sy.diff(f, x))
 g = sy.cos(y) * x + sy.log(y) * x**2
 print(g)
 print(sy.diff(g,y)) # PDE w.r.t. y
+
+
+# -----------------------Day 3-----------------------------
+df = pd.DataFrame([10,20,30,40], columns=['Numbers'], index=list('abcd'))
+print(df)
+print(df.index)
+print(df.columns)
+print(df.loc['c']) # this is to replace old df.ix
+print(df.loc[['d','c']]) # this is to replace old df.ix
+df['newnew'] = df**2
+print(df.sum()) # sum by column
+
+# expand df by column
+df['add_numbers_directly'] = (1.5, 4, 6, 7)
+df['add_with_index'] = pd.DataFrame(['Cox', 'Joey', 'Rachel', 'Chandler'], index=list('dabc'))
+# above line only handles when right side DF has only 1 column
+print(df)
+
+# expand df by rows
+new_row = pd.DataFrame({'Numbers': 66, 'add_with_idex': 'yup', 'en-heng': 100}, index=['yo'])
+# for columns that only exist in 1 DF, fill the other with NaN, like 'en-heng'
+print(pd.concat([df, new_row]))
+
+# df.join
+new_col = pd.DataFrame([5, 6, 7, 7, 9], index=list('abefg'), columns=['test_join'])
+print(df.join(new_col, how='outer')) # union
+print(df.join(new_col, how='inner')) # intersection
+print(df.join(new_col, how='left'))
+print(df.join(new_col, how='right'))
+
+# Financial data --> using yf
+# Define the S&P 500 ticker (^GSPC)
+sp500 = yf.Ticker("^GSPC")
+
+# Get historical market data
+# full history
+df_full = sp500.history(period="max")  # "max" for all available data
+df = yf.download("^GSPC", start="2020-01-01")
+print(df.info())
+print(df.tail())
+
+# plot index
+df['Close'].plot(figsize=(8, 6), grid=True, title='SP500 index')
+# move legend to outside
+plt.legend(['SP500'], loc='upper left', bbox_to_anchor=(1, 1))
+plt.legend(['SP500'], loc='best')
+plt.close()
+
+# plot return
+# shift(1) means to lag by 1, and first number is NaN
+df['Return'] = np.log(df['Close'] / df['Close'].shift(1))
+df['Return'].plot(figsize=(8, 6), grid=True, title='SP500 log return')
+# histogram
+df['Return'].hist(bins=100)
+# QQ plot
+sm.qqplot(df['Return'].dropna(), line='s')
+plt.grid(True)
+# skew & kurtosis
+data = df['Return'].dropna()
+scs.skew(data)
+# Null Hypothesis (H₀): Data is symmetric (skewness = 0)
+print(scs.skewtest(data)[1])
+# above p-value < 0.05, reject Null
+
+scs.kurtosis(data)
+# Null Hypothesis (H₀): Data has normal kurtosis (like a Gaussian distribution).
+print(scs.kurtosistest(data)[1])
+
+# Null Hypothesis (H₀): The data is normally distributed.
+print(scs.normaltest(data)[1])
+
+
+# plot two things together
+df[['Close', 'Return']].plot(subplots=True, figsize=(8,6), grid=True,
+                             title='SP500 index and returns')
+
+# moving average
+# https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rolling.html
+df['MA_21D'] = df['Close'].rolling(window=21).mean()
+df['MA_252D'] = df['Close'].rolling(window=252).mean()
+df[['Close', 'MA_21D', 'MA_252D']].plot(figsize=(10,6), grid=True, style=['-', '--', '--'],
+                                        title='SP500 index and moving average')
+
+df['vol_252D'] = np.sqrt(252) * df['Return'].rolling(window=252).std()
+df['vol_21D'] = np.sqrt(21) * df['Return'].rolling(window=21).std()
+df[['vol_21D', 'vol_252D']].plot(figsize=(10,6), grid=True, title='SP500 annualized vol')
+
+# correlation & linear regression
+# yf.Ticker("000300.SS") # 上证综指
+ss = yf.download("000300.SS", start="2020-01-01")
+print(ss.tail())
+# take intersection
+df = df.loc[[x for x in df.index if x in ss.index]]
+print(df)
+df['ss_close'] = ss['Close']
+df['ss_return'] = np.log(df['ss_close']/df['ss_close'].shift(1))
+# draw scatter
+df.plot.scatter(x='Return', y='ss_return', grid=True)
+
+# linear regression
+
+# Fit model - sklearn linear regression
+# Remove rows with any NaN!!!!!
+df = df.dropna()
+
+model = LinearRegression()
+X = df[['Return']]
+model.fit(X, df['ss_return'])
+print(f"Slope: {model.coef_[0]:.2f}, Intercept: {model.intercept_:.2f}")
+# Predict
+df['ss_return_pred'] = model.predict(X)
+# plot
+plt.scatter(df['Return'], df['ss_return'])
+plt.plot(df['Return'], df['ss_return_pred'])
+plt.grid()
+plt.show()
+
+# quick visualization with seaborn!! woohoo~
+sns.regplot(x='Return', y='ss_return', data=df, ci=None)
+plt.title('Linear Regression with Seaborn')
+plt.show()
+
+# Random number generation
+# https://numpy.org/devdocs/reference/random/index.html
+print(np.random.standard_normal(100))
+print(np.random.normal(1, 1, 100))
+print(np.random.uniform(-3, 3, 100))
+print(np.random.lognormal(0, 1, 100))
